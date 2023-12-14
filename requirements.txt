@@ -1,0 +1,8 @@
+fastapi==0.65.2
+uvicorn==0.14.0
+gunicorn==20.1.0
+stripe==2.56.0
+supabase==0.1.0
+pydantic==1.8.2
+python-dotenv==0.17.1
+requests==2.25.1

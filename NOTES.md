@@ -1,0 +1,14 @@
+- [ ] install in -e mode
+- [ ] make cli utility so after user pip installs can run "init" with which he is forwarded to a signup form after that api key is prompted in the users terminal 
+    - [x] make cli for init
+    - [x] impl logic which returns placeholder link to sign up 
+    - [ ] implement signup logic
+        - [x] cli command "apikey"
+            - [ ] prompts two options 1. sign up 2. sign in --> both return key if success 
+        - [ ] setup supabase signup and link to signup
+    - [ ] if he forgot his key and wants to know the key he just runs the init command again from the cli where he than can login again and after successful login his key is prompted back again
+- [ ] make cli utility for displaying the current credit value "display"
+- [ ] cli for loading credits "load"
+- [ ] if user runs package without providing api key or api key is missing - display "no api key or wrong api key. for getting an api key please run init, for getting credits run payment"
+- [ ] implement a "info" cli command which shows all options
+- [ ] next steps
